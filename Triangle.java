@@ -9,10 +9,12 @@ public class Triangle {
 		int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
+
         int sumab = a + b;
         int sumac = a + c;
         int sumbc = b + c;
-        boolean isTriangle = (sumab > c) && (sumac > b) && (sumbc > a);
+        
+        boolean isTriangle = ((sumab > c) && (sumac > b) && (sumbc > a));
 
         System.out.println(a + ", " + b + ", " + c + ": " + isTriangle);	
 	}
