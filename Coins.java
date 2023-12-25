@@ -4,7 +4,7 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		
+		// Gets and parses a number of coins from the command-line
 		int coins = Integer.parseInt(args[0]);
         int quarters = coins / 25;
         int cents = coins % 25;
